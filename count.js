@@ -1,4 +1,4 @@
-var lettersArr = (process.argv[2]).split("");
+var lettersArr = (process.argv[2].replace(/\s/g, '').split(""));
 var obj = {};
 
 function countLetters() {
